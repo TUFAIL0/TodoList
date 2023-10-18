@@ -25,6 +25,7 @@ struct RegistrationView: View {
                 
                 TLButton(title: "Create Account", backgroud: .green)
                 {
+                    viewModel.register()
                     //Registration
                 }
             }

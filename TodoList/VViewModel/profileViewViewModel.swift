@@ -6,3 +6,11 @@
 //
 
 import Foundation
+class profileViewViewModel : ObservableObject{
+    init(){}
+    
+    func toggleIsDone(item : TodoListItems){
+        
+    }
+    
+}

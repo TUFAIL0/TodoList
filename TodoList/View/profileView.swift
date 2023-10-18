@@ -8,8 +8,21 @@
 import SwiftUI
 
 struct profileView: View {
+    @StateObject var viewModel = profileViewViewModel()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView{
+            VStack{
+                
+            }
+            .navigationTitle("Profile")
+            .toolbar{
+                Button{
+                    //action
+                }label: {
+                    Image(systemName: "plus")
+                }
+            }
+        }
     }
 }
 
